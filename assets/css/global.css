@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'notoSans-Reg';
+  src: url(../fonts/NotoSansKR-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'notoSans-Bold';
+  src: url(../fonts/NotoSansKR-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'notoSans-Med';
+  src: url(../fonts/NotoSansKR-Medium.ttf);
+}
+
+main {
+  padding: 50px 0 100px;
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'notoSans-Bold';
+  font-size: 1.8em;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-family: 'notoSans-Med';
+  font-size: 1.2em;
+  color: #b9b8b7;
+  margin-bottom: 25px;
+}
+
+img {
+  width: inherit;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: 'notoSans-Reg';
+  margin-bottom: 40px;
+  text-align: left;
+}
